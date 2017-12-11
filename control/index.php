@@ -80,7 +80,7 @@ if(isset($_SESSION['id_user'])){
             </ol>
             <div class="alert alert-success alert-dismissable">
               <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-              Selamat Datang Admin ! Apakabar ? Semoga hari ini adalah hari terbaik :).
+              <h2><center>Selamat Datang Admin ! Apakabar ? Semoga hari ini adalah hari terbaik :).</center> </h2>
             </div>
           </div>
         </div><!-- /.row -->

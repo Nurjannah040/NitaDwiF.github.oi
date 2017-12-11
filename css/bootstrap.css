@@ -1359,6 +1359,7 @@ table th[class*="col-"] {
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
+
   }
   .table-responsive > .table {
     margin-bottom: 0;
@@ -1370,6 +1371,7 @@ table th[class*="col-"] {
   .table-responsive > .table > tbody > tr > td,
   .table-responsive > .table > tfoot > tr > td {
     white-space: nowrap;
+
   }
   .table-responsive > .table-bordered {
     border: 0;
