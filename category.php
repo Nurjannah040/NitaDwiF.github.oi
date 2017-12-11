@@ -24,6 +24,8 @@ include "connect.php";
 <body>
 	<!-- wrapper -->
 	<div class="wrapper">
+
+
 		<!-- header -->
 		<header class="header">
 			<div class="shell">
@@ -48,6 +50,7 @@ include "connect.php";
 							<li><a href="category.php">CategoryForum</a></li>
 							<li><a href="profil.php">Profile</a></li>
 							<li><a href="member.php">Member</a></li>
+							<li><a href="logout.php">Ebook</a></li>
 							<?php if($_SESSION['jabat'] == "admin"){ echo "<li><a href='control/index.php'>Dashboard Admin</a></li>";} ?>
 							<li><a href="logout.php">Logout</a></li>
 						</ul>
@@ -59,11 +62,12 @@ include "connect.php";
 		</header>
 		<!-- end of header -->
 		<!-- shell -->
-		<div class="shell">
+		<div class="shell" >
 			<!-- main -->
-			<div class="main">
+			<div class="main" >
 				<section class="content">
-										<h2><center>KATEGORI</center></h2>
+										<h2 style="color:DodgerBlue;"><center>KATEGORI</center></h2>
+										
 										<BR>
 				<?php 
 								include ("datacategory.php");	 
@@ -85,7 +89,7 @@ include "connect.php";
 		<!-- footer -->
 		<div id="footer">
 			<!-- shell -->
-			<div class="shell">
+			<div class="shell" >
 				<!-- footer-cols -->
 				<div class="footer-cols">
 					<div class="col" style="float : right;">

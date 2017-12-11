@@ -50,6 +50,7 @@ include "connect.php";
 							<li><a href="category.php">CategoryForum</a></li>
 							<li><a href="profil.php">Profile</a></li>
 							<li><a href="member.php">Member</a></li>
+							<li><a href="logout.php">Ebook</a></li>
 							<?php if($_SESSION['jabat'] == "admin"){ echo "<li><a href='control/index.php'>Dashboard Admin</a></li>";} ?>
 							<li><a href="logout.php">Logout</a></li>
 						</ul>
